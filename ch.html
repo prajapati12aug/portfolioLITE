@@ -6,7 +6,7 @@
   <title>My Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .page { min-height: 100vh; padding: 2rem; scroll-behavior: smooth; }
+    .page { min-height: 100vh; padding: 2rem; scroll-margin-top: smooth; }
     .hidden { display: none; }
   </style>
 </head>
@@ -115,7 +115,7 @@
   <script>
     // Smooth scrolling for nav links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      //anchor.addEventListener link.href = anchor.getAttribute('href');
+      anchor.addEventListener link.href = anchor.getAttribute('href');
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector(this.getAttribute('href')).scrollIntoView({
